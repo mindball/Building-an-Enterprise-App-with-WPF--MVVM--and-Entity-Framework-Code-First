@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\SandBox\\SandBox.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj",
+        "projectName": "FriendOrganizer.DataAccess",
+        "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj": {
+                "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj",
+        "projectName": "FriendOrganizer.UI",
+        "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj"
+              },
+              "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj": {
+                "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj",
+        "projectName": "FriendOrginizer.Model",
+        "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\SandBox\\SandBox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\SandBox\\SandBox.csproj",
+        "projectName": "SandBox",
+        "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\SandBox\\SandBox.csproj",
+        "packagesPath": "C:\\Users\\oilaripi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\SandBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oilaripi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.DataAccess\\FriendOrganizer.DataAccess.csproj"
+              },
+              "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj": {
+                "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrganizer.UI\\FriendOrganizer.UI.csproj"
+              },
+              "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj": {
+                "projectPath": "C:\\Users\\oilaripi\\source\\repos\\FriendOrganizer\\FriendOrginizer.Model\\FriendOrginizer.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Catel.Core": {
+              "target": "Package",
+              "version": "[5.12.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
