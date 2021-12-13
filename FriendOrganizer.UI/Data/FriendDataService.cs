@@ -1,30 +1,37 @@
 ﻿using FriendOrganizer.DataAccess;
-using FriendOrginizer.Model;
+using FriendOrganizer.Model;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.Data
 {
-    //TODO: make it a generic
-    public class FriendDataService : IFriendDataService //IFriendDataService<Friend>
+    public class FriendDataService : IFriendDataService
     {
-        private readonly FriendOrganizerDbContext dbContext;
+        private Func<FriendOrganizerDbContext> _contextCreator;
 
-        public FriendDataService(FriendOrganizerDbContext dbContext)
+        public FriendDataService(Func<FriendOrganizerDbContext> contextCreator)
         {
-            this.dbContext = dbContext;
+            _contextCreator = contextCreator;
         }
-        //TODO: Load data from real DB
-        public async Task<IList<Friend>> GetAllAsync()
+        public async Task<Friend> GetByIdAsync(int friendId)
         {
-           using(var context = new FriendOrganizerDbContext())
+            using (var ctx = _contextCreator())
             {
-                var friends = await context.Friends.ToListAsync();
+                return await ctx.Friends.AsNoTracking().SingleAsync(f => f.Id == friendId);
+            }
+        }
 
-                await Task.Delay(5000);
+        public async Task SaveAsync(Friend friend)
+        {
+            using(var ctx = _contextCreator())
+            {
+                ctx.Friends.Attach(friend);
+                ctx.Entry(friend).State = EntityState.Modified;
 
-                return friends;
+                await ctx.SaveChangesAsync();
             }
         }
     }

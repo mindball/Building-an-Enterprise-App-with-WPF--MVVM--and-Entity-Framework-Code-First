@@ -1,16 +1,32 @@
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrginizer.Model.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrginizer.Model.pdb
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.AssemblyReference.cache
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CopyComplete
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.cache
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.dll
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.pdb
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.AssemblyReference.cache
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.cache
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CoreCompileInputs.cache
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CopyComplete
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
+D:\Downloads\Building an Enterprise App with WPF, MVVM, and Entity Framework Code First\wpf-mvvm-entity-framework-app\07\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.dll
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.pdb
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.AssemblyReference.cache
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.cache
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CopyComplete
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb

@@ -1,5 +1,0 @@
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrginizer.Model\bin\Debug\FriendOrginizer.Model.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrginizer.Model\bin\Debug\FriendOrginizer.Model.pdb
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrginizer.Model\obj\Debug\FriendOrginizer.Model.csproj.CoreCompileInputs.cache
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrginizer.Model\obj\Debug\FriendOrginizer.Model.dll
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrginizer.Model\obj\Debug\FriendOrginizer.Model.pdb

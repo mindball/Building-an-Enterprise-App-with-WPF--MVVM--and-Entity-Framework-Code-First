@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.UI\obj\Debug\
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.UI\obj\Debug\
 FriendOrganizer.UI
 none
 false
 DEBUG;TRACE
-C:\Users\oilaripi\source\repos\FriendOrganizer\FriendOrganizer.UI\App.xaml
-1219584333
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.UI\App.xaml
+31045655424
 
-9-702292178
-35-224061033
-MainWindow.xaml;
+221481576904
+711861023740
+MainWindow.xaml;View\FriendDetailView.xaml;View\NavigationView.xaml;
 
 False
 

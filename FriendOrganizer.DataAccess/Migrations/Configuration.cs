@@ -1,25 +1,27 @@
-﻿namespace FriendOrganizer.DataAccess.Migrations
+namespace FriendOrganizer.DataAccess.Migrations
 {
-    using FriendOrganizer.DataAccess;
-    using FriendOrginizer.Model;
-    using System.Data.Entity.Migrations;
+  using FriendOrganizer.Model;
+  using System;
+  using System.Data.Entity;
+  using System.Data.Entity.Migrations;
+  using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FriendOrganizerDbContext>
+  internal sealed class Configuration : DbMigrationsConfiguration<FriendOrganizer.DataAccess.FriendOrganizerDbContext>
+  {
+    public Configuration()
     {
-        public Configuration()
-        {
-            AutomaticMigrationsEnabled = false;
-        }
-
-        protected override void Seed(FriendOrganizerDbContext context)
-        {
-            context.Friends.AddOrUpdate(
-             f => f.FirstName,
-             new Friend { FirstName = "Tom", Email = "tom.skott@gmai.co", LastName = "skott" },
-             new Friend { FirstName = "Jerry", Email = "jerry.pill@gmai.co", LastName = "Pill" },
-             new Friend { FirstName = "Pinokio", Email = "pinokio.dav@gmai.co", LastName = "Dav" },
-             new Friend { FirstName = "Ivan", Email = "ivan.ivanov@gmai.co", LastName = "Ivanov" }
-             );
-        }
+      AutomaticMigrationsEnabled = false;
     }
+
+    protected override void Seed(FriendOrganizer.DataAccess.FriendOrganizerDbContext context)
+    {
+      context.Friends.AddOrUpdate(
+        f => f.FirstName,
+        new Friend { FirstName = "Thomas", LastName = "Huber" },
+        new Friend { FirstName = "Urs", LastName = "Meier" },
+        new Friend { FirstName = "Erkan", LastName = "Egin" },
+        new Friend { FirstName = "Sara", LastName = "Huber" }
+        );
+    }
+  }
 }
