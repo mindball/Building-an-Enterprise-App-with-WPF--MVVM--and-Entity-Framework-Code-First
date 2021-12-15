@@ -17,16 +17,34 @@ namespace FriendOrganizer.UI.Wrapper
 
         public T Model { get; }
 
-        public virtual TValue GetValue<TValue>([CallerMemberName] string propertyName = null)
+        protected virtual TValue GetValue<TValue>([CallerMemberName] string propertyName = null)
         {
             return (TValue)typeof(T).GetProperty(propertyName).GetValue(Model);
         }
 
-        public virtual void SetValue<Tvalue>(Tvalue objectValue, [CallerMemberName] string propertyName = null)
+        protected virtual void SetValue<Tvalue>(Tvalue objectValue, [CallerMemberName] string propertyName = null)
         {
             typeof(T).GetProperty(propertyName).SetValue(Model, objectValue);
             OnPropertyChanged(propertyName);
+            ValidatePropertyInternal(propertyName);
         }
-    }
-    
+
+        private void ValidatePropertyInternal(string propertyName)
+        {
+            ClearErrors(propertyName);
+            var errors = ValidateProperty(propertyName);
+            if(errors != null)
+            {
+                foreach (var error in errors)
+                {
+                    AddError(propertyName, error);
+                }
+            }
+        }
+
+        protected virtual IEnumerable<string> ValidateProperty(string propertyName)
+        {
+            return null;
+        }
+    }    
 }

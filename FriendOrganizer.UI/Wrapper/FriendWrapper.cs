@@ -23,8 +23,7 @@ namespace FriendOrganizer.UI.Wrapper
             get => GetValue<string>();
             set
             {
-                SetValue(value); 
-                ValidateProperty(nameof(FirstName));
+                SetValue(value);                 
             }
         }
 
@@ -46,23 +45,16 @@ namespace FriendOrganizer.UI.Wrapper
             }
         }
 
-        private void ValidateProperty(string propertyName)
+        protected override IEnumerable<string> ValidateProperty(string propertyName)
         {
-            ClearErrors(propertyName);
             switch (propertyName)
             {
                 case nameof(FirstName):
                     if (string.Equals(FirstName, "Robot", StringComparison.OrdinalIgnoreCase))
                     {
-                        AddError(propertyName, "Robot are not valid for First name");
+                        yield return "Robot are not valid for First name";
                     }
-                    break;
-                case nameof(LastName):
-
-                    break;
-                case nameof(Email):
-
-                    break;
+                    break;              
             }
         }
     }
