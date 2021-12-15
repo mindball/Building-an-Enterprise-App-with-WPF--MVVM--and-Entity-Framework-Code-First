@@ -10,91 +10,39 @@ using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.Wrapper
 {
-    public class FriendWrapper : ViewModelBase, INotifyDataErrorInfo
-    {
-        private Dictionary<string, List<string>> _errorsByPropertyName;
-        public FriendWrapper(Friend model)
-        {
-            Model = model;
-            _errorsByPropertyName = new Dictionary<string, List<string>>();
+    public class FriendWrapper : WrapperBaseClass<Friend>
+    {       
+        public FriendWrapper(Friend model) : base(model)
+        {               
         }
-
-        public Friend Model { get; }
 
         public int Id { get => Model.Id; }
 
         public string FirstName
         {
-            get => Model.FirstName;
+            get => GetValue<string>();
             set
             {
-                Model.FirstName = value;
-                OnPropertyChanged();
+                SetValue(value); 
                 ValidateProperty(nameof(FirstName));
             }
         }
 
         public string LastName
         {
-            get => Model.LastName;
+            get => GetValue<string>();
             set
             {
-                Model.LastName = value;
-                OnPropertyChanged();
-                ValidateProperty(nameof(LastName));
+                SetValue(value);
             }
         }
 
         public string Email
         {
-            get => Model.Email;
+            get => GetValue<string>();
             set
             {
-                Model.Email = value;
-                OnPropertyChanged();
-                ValidateProperty(nameof(Email));
-            }
-        }
-
-        public bool HasErrors => _errorsByPropertyName.Any();
-
-        public event EventHandler<DataErrorsChangedEventArgs> ErrorsChanged;
-
-        public IEnumerable GetErrors(string propertyName)
-        {
-            return _errorsByPropertyName.ContainsKey(propertyName)
-            ? _errorsByPropertyName[propertyName]
-            : null;
-        }
-
-        private void OnErrorsChanged(string propertyName)
-        {
-            ErrorsChanged?.Invoke(this, new DataErrorsChangedEventArgs(propertyName));
-        }
-
-        private void AddError(string propertyName, string error)
-        {
-            if (!_errorsByPropertyName.ContainsKey(propertyName))
-            {
-                _errorsByPropertyName[propertyName] = new List<string>();
-            }
-
-            var existError =
-                _errorsByPropertyName[propertyName].Contains(error);
-
-            if (!existError)
-            {
-                _errorsByPropertyName[propertyName].Add(error);
-                OnErrorsChanged(propertyName);
-            }
-        }
-
-        private void ClearErrors(string propertyName)
-        {
-            if (!_errorsByPropertyName.ContainsKey(propertyName))
-            {
-                _errorsByPropertyName.Remove(propertyName);
-                OnErrorsChanged(propertyName);
+                SetValue(value);
             }
         }
 
