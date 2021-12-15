@@ -68,3 +68,4 @@ C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-W
 C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.CopyComplete
 C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
 C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+C:\Users\oilaripi\source\repos\FriendOrganizer\Building-an-Enterprise-App-with-WPF--MVVM--and-Entity-Framework-Code-First\FriendOrganizer.UI\obj\Debug\App.baml

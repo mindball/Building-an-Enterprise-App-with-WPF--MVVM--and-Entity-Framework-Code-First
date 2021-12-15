@@ -25,7 +25,22 @@
       "ProjectGuid": "61adf2c3-4703-406a-9b94-bfd75d8aea91",
       "DisplayName": "FriendOrganizer.UI",
       "ColorIndex": 3
+    },
+    "3943529c-dd85-4ec1-908e-93409b052684": {
+      "ProjectGuid": "3943529c-dd85-4ec1-908e-93409b052684",
+      "DisplayName": "FriendOrganizer.Model",
+      "ColorIndex": 4
+    },
+    "bd5c1030-500b-4942-9d43-767ef332b058": {
+      "ProjectGuid": "bd5c1030-500b-4942-9d43-767ef332b058",
+      "DisplayName": "SandsBox",
+      "ColorIndex": 5
+    },
+    "1daeff81-2922-48b2-87d3-b57dc26e67c9": {
+      "ProjectGuid": "1daeff81-2922-48b2-87d3-b57dc26e67c9",
+      "DisplayName": "FriendOrganizer.DataAccess",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 7
 }

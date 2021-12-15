@@ -2,9 +2,9 @@
 using FriendOrganizer.UI.Data;
 using FriendOrganizer.UI.Event;
 using Prism.Events;
-using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace FriendOrganizer.UI.ViewModel.Navigation
@@ -36,11 +36,11 @@ namespace FriendOrganizer.UI.ViewModel.Navigation
             var lookup = await _friendLookupService.GetFriendLookupAsync();
             Friends.Clear();
             foreach (var item in lookup)
-            {
+            {                
                 var newNavigationItemViewModel =
                     new NavigationItemViewModel(item.Id, item.DisplayMember);
                
-                Friends.Add(newNavigationItemViewModel);
+                Friends.Add(newNavigationItemViewModel);                
             }
         }
 
@@ -62,6 +62,5 @@ namespace FriendOrganizer.UI.ViewModel.Navigation
                 }
             }
         }
-
     }
 }
